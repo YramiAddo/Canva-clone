@@ -69,3 +69,163 @@ body {
     margin-top: 55px;
     margin-left: 10px;
   }
+
+  @media (min-width: 190px) and (max-width: 576px) {
+    .pictures {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .pic-1 {
+      display: flex;
+      justify-content: center;
+      height: 200px;
+      width: 150px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+    }
+
+    .pic-2 {
+      display: flex;
+      justify-content: center;
+      height: 200px;
+      width: 200px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .pic-3 {
+      display: flex;
+      justify-content: center;
+      height: 150px;
+      width: 120px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .pic-4 {
+      display: flex;
+      justify-content: center;
+      height: 150px;
+      width: 150px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .pictures {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .pic-1 {
+      display: flex;
+      justify-content: center;
+      height: 250px;
+      width: 180px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .pic-2 {
+      display: flex;
+      justify-content: center;
+      height: 250px;
+      width: 400px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .pic-3 {
+      display: flex;
+      justify-content: center;
+      height: 200px;
+      width: 150px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .pic-4 {
+      display: flex;
+      justify-content: center;
+      height: 200px;
+      width: 180px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .pictures {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: auto;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .pic-1 {
+      display: flex;
+      justify-content: center;
+      height: 300px;
+      width: 220px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 40px;
+    }
+
+    .pic-2 {
+      display: flex;
+      justify-content: center;
+      height: 300px;
+      width: 450px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 40px;
+    }
+
+    .pic-3 {
+      display: flex;
+      justify-content: center;
+      height: 250px;
+      width: 190px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 75px;
+    }
+
+    .pic-4 {
+      display: flex;
+      justify-content: center;
+      height: 200px;
+      width: 230px;
+      border: none;
+      border-radius: 20px;
+      margin-top: 55px;
+    }
+  }
